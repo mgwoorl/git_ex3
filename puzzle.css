@@ -1,0 +1,76 @@
+body {
+    margin: 0px 0px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.piece {
+    background-image: url("bts.jpg");
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.randon_pices_place {
+    border: solid 2px rgb(9, 9, 52);
+}
+
+.field {
+    width: 50%;
+    height: 100%;
+    background-color: #d4d2ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table_for_puzzle {
+    width: 455px;
+    height: 303px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 3px rgb(6, 6, 34);
+}
+
+.cells {
+    border: 1px solid rgb(12, 0, 48);
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+
